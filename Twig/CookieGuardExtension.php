@@ -6,7 +6,7 @@ namespace FH\Bundle\CookieGuardBundle\Twig;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;
 
-class CookieGuardExtension extends \Twig_Extension
+final class CookieGuardExtension extends \Twig_Extension
 {
     private $request;
     private $requestStack;
